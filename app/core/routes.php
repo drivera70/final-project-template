@@ -1,6 +1,7 @@
 <?php
 
 use app\controllers\UserController;
+use app\controllers\JobController;
 
 $routes = [
     'users' => [
@@ -11,5 +12,10 @@ $routes = [
     'view-users' => [
         'controller' => UserController::class,
         'GET' => 'getUsers',
+    ],
+    'experience' => [
+        'controller' => JobController::class,
+        'GET' => 'viewJobs',
+        'POST' => 'saveJobs'
     ]
 ];
