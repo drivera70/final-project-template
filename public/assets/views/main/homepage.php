@@ -18,15 +18,41 @@
 
             <div class = "body-container">
                 <div class = "skills-container">
+                    <div class = "skills-title-container">
+                        <h3>Skills</h3>
+                    </div>
+                    <div class = "skills-content-container">
+                        <p>C++</p>
+                        <p>HTML</p>
+                        <p>CSS</p>
+                        <p>JavaScript</p>
+                        <p>PHP</p>
+                        <p>MySQL</p>
+                        <p>Google Workspace</p>
+                        <p>Microsoft Office</p>
 
+                    </div>
                 </div>
-                <div class = "about-me-container">
 
+                <div class = "about-me-container">
+                    <div class = "about-me-title-container">
+                        <h2>About Me</h2>
+                    </div>
+                    <div class = "about-me-content-container">
+                        <p>Hello, and welcome!</p>
+                         <p>My name is Darian Rivera, 
+                            I am a sophmore at Fordham Univeristy pursuing a bachelor's of science in computer science.</p>
+                        <p>I'm 20 years old, and I am from West Islip, New York.
+                            I'm looking to pursue a career as a software developer in the future.</p>
+                        <p>This website serves as my resume, in an expanded digital format. It showcases my previous working experience and skills I have acquired throughout my young career.</p>
+                        <p>I hope in navigating this website you learn more about me, and are interested in doing business with me.</p>
+                        <p>Have fun!</p>
+                    </div>
+                    
                 </div>
             </div>
 
         </div>
-        <p>hey</p>
     </body>
 </html>
 

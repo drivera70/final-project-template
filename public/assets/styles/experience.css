@@ -1,3 +1,15 @@
 h1 {
-    color: red
+    color: red;
+}
+
+.parent-container
+{
+    width: 1500px;
+}
+
+.title-box
+{
+    text-align: center;
+    background-color: lightslategray;
+
 }
