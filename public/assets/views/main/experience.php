@@ -16,7 +16,7 @@
                 <h1>Work Experience</h1>
             </div>
 
-            <div class="container jobs-form margin-thirty">
+            <div class="container">
                 <h2>Previous Jobs Held:</h2>
                 <div id="jobs-container" class="margin-ten"></div>
                 <!--<a href="/posts-add-view" class="btn btn-success margin-thirty">Add post</a> -->

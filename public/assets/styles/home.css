@@ -1,5 +1,5 @@
 body {
-    background-color: plum;
+    background-color: lightgoldenrodyellow;
 }
 
 .title-container {
@@ -72,4 +72,21 @@ body {
     font-size: 115%;
     font-weight: 500;
     text-align: center;
+}
+
+.main-button-container
+{
+    background-color: red;
+    color: whitesmoke;
+    width: 300px;
+    margin-right: 10px;
+}
+
+.button-container
+{
+    background-color: gray;
+    margin: 10px;
+    text-align: center;
+    font-size: 115%;
+    font-weight: 600;
 }

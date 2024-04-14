@@ -48,7 +48,17 @@
                         <p>I hope in navigating this website you learn more about me, and are interested in doing business with me.</p>
                         <p>Have fun!</p>
                     </div>
-                    
+
+                </div>
+                
+                <div class = "main-button-container">
+                    <div class = "button-container">
+                        <p>To view my previous work experience, click this button!</p>
+                        <a href = "public/assets/views/main/experience.php">
+                            <button>Visit Jobs Page</button>
+                        </a>
+                        <p>.</p>
+                    </div>
                 </div>
             </div>
 

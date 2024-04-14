@@ -1,15 +1,45 @@
 h1 {
-    color: red;
+    color: blue;
 }
 
 .parent-container
 {
-    width: 1500px;
+    text-align: center;
+    align-items: center;
+
 }
 
 .title-box
 {
     text-align: center;
     background-color: lightslategray;
+    margin: 10px;
 
 }
+
+.container
+{
+    width: 1500px;
+    margin: 10px;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+
+}
+
+.job-container
+{ 
+    justify-content: space-between;
+    align-items: center;
+}
+
+.job
+{
+    font-weight: 500;
+}
+
+.bold
+{
+    font-weight: 700;
+}
+
