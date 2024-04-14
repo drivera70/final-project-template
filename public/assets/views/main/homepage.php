@@ -54,7 +54,7 @@
                 <div class = "main-button-container">
                     <div class = "button-container">
                         <p>To view my previous work experience, click this button!</p>
-                        <a href = "public/assets/views/main/experience.php">
+                        <a href = "experience-view">
                             <button>Visit Jobs Page</button>
                         </a>
                         <p>.</p>

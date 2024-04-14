@@ -8,13 +8,14 @@ $(document).ready(function () {
             $('#jobs-container').html('')
             $.each(data, function (key, value) {
                 $('#jobs-container').append(`
-                    <div class="job-container margin-thirty">
+                    <div class="new-job-container">
                         <span class="job">
                             <span class="bold">Title:</span> ${value['title']}
                             <br>   
                             <span class="bold">Company:</span> ${value['company']}
                             <br>
                             <span class="bold">Years Worked:</span> ${value['years_worked']}
+                            <br>
                         </span>
                     </div>`)
             });

@@ -1,12 +1,14 @@
 h1 {
-    color: blue;
+    color: orange;
 }
 
 .parent-container
 {
     text-align: center;
     align-items: center;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .title-box
@@ -14,7 +16,7 @@ h1 {
     text-align: center;
     background-color: lightslategray;
     margin: 10px;
-
+    width: 1500px;
 }
 
 .container
@@ -31,6 +33,11 @@ h1 {
 { 
     justify-content: space-between;
     align-items: center;
+}
+
+.new-job-container
+{
+    justify-content: space-between;
 }
 
 .job
