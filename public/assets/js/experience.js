@@ -16,13 +16,24 @@ $(document).ready(function () {
                             <br>
                             <span class="bold">Years Worked:</span> ${value['years_worked']}
                             <br>
-                            <button>Test</button>
+                            <button onclick = "addDescription(${value['description']})">Test</button>
                         </span>
                     </div>`)
             });
         } 
     });
+
+    function addDescription(param)
+    {
+        $('.job').append(`
+            <span class = bold>Description:</span>$param
+        `)
+    }
+
 })
+
+
+
 
 //<span>
 //<a href="posts-update-view/${value['id']}" class="btn btn-primary">edit</a>

@@ -31,17 +31,26 @@ h1 {
 
 .job-container
 { 
+    display: flex;
+    justify-content: space-between;
     align-items: center;
+    flex-direction: column;
 }
 
 .new-job-container
 {
+    display: flex;
+    align-items: center;
     justify-content: space-between;
+    flex-direction: column;
 }
 
 .job
 {
     font-weight: 500;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .bold
