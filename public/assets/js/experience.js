@@ -22,15 +22,26 @@ $(document).ready(function () {
                     </div>`)
             });
         } 
+
     });
 
-    $('#button').on("click", function(){
-        $('.job').append(`
-            <span class = bold>Description:</span> ${value['description']}
-        `);
-        console.log('tried');
-    });
+    //$('#button').on("click", function(){
+        //$('.job').append(`
+            //<span class = bold>Description:</span> ${value['description']}
+        //`);
+        //console.log('tried');
+    //});
     
+    
+    //document.getElementById("button").addEventListener("click", myFunction());
+
+    //function myFunction()
+    //{
+        //$('.job').append(`
+          //  <span class = bold>Description:</span> 
+        //`);
+    //}
+
 
 });
 
@@ -41,3 +52,4 @@ $(document).ready(function () {
 //<a href="posts-update-view/${value['id']}" class="btn btn-primary">edit</a>
 //<a href="posts-delete-view/${value['id']}" class="btn btn-danger">delete</a>
 //</span>
+
