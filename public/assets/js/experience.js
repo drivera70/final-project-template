@@ -16,7 +16,7 @@ $(document).ready(function () {
                             <br>
                             <span class="bold">Years Worked:</span> ${value['years_worked']}
                             <br>
-                            <button onclick = "addDescription(${value['description']})">Test</button>
+                            <button onclick = "addDescription(${value['description']})">Show More</button>
                         </span>
                     </div>`)
             });
@@ -26,7 +26,7 @@ $(document).ready(function () {
     function addDescription(param)
     {
         $('.job').append(`
-            <span class = bold>Description:</span>$param
+            //<span class = bold>Description:</span>$param
         `)
     }
 
