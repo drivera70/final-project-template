@@ -1,0 +1,31 @@
+.parent-container
+{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.title-box
+{
+    text-align: center;
+    background-color: lightslategray;
+    color: yellowgreen;
+    width: 1500px;
+    margin: 10px;
+}
+
+.container
+{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: space-between;
+    font-weight: 700;
+}
+
+.btn
+{
+    background-color: rgb(69, 69, 246);
+    color: whitesmoke;
+    font-weight: 700;
+}

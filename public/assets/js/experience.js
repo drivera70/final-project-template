@@ -16,31 +16,12 @@ $(document).ready(function () {
                             <br>
                             <span class="bold">Years Worked:</span> ${value['years_worked']}
                             <br>
-                            <button id = "button">Show More</button>
-                            <br>
                         </span>
                     </div>`)
             });
         } 
     });
 
-    $('#button').click(function(){
-        $('.job').append(`
-            <span class = bold>Description:</span> ${value['description']}
-        `);
-        console.log('tried');
-    });
-    
-
-
-    //document.getElementById("button").addEventListener("click", myFunction());
-
-    //function myFunction()
-    //{
-        //$('.job').append(`
-          //  <span class = bold>Description:</span> ${value['description']}
-        //`);
-    //}
 
 
 });

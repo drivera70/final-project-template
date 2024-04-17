@@ -13,4 +13,10 @@ class Job
     public function getAllJobs() {
         return $this->findAll();
     }
+
+    public function saveJob($inputData)
+    {
+        $query = "insert into jobs (title, company, years_worked, description) values (:title, :company, :years_worked, :description);";
+        return $this->query($query, $inputData);
+    }
 }

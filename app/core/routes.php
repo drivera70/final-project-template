@@ -21,5 +21,10 @@ $routes = [
     'experience-view' => [
         'controller' => JobController::class,
         'GET' => 'viewJobs'
+    ],
+    'experience-add' => [
+        'controller' => JobController::class,
+        'GET' => 'viewAddJobs',
+        'POST' => 'saveJob'
     ]
 ];
