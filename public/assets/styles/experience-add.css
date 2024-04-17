@@ -29,3 +29,8 @@
     color: whitesmoke;
     font-weight: 700;
 }
+
+.buttons
+{
+    display: flex;
+}

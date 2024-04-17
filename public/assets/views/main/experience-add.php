@@ -46,7 +46,9 @@
                                 placeholder="Enter Description">
                     </div>
                     <br>
-                    <button type = "submit" class ="btn">Submit</button>
+                    <div class = "buttons">
+                        <button type = "submit" class ="btn">Submit</button>
+                    </div>
                 </form>
             </div>
             

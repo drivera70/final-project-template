@@ -53,9 +53,13 @@
                 
                 <div class = "main-button-container">
                     <div class = "button-container">
-                        <p>To view my previous work experience, click this button!</p>
+                        <p>Use these buttons to navigate the website!</p>
                         <a href = "experience-view">
                             <button>Visit Jobs Page</button>
+                        </a>
+                        <p>.</p>
+                        <a href = "experience-add">
+                            <button>Add A Job Page</button>
                         </a>
                         <p>.</p>
                     </div>
