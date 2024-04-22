@@ -16,6 +16,7 @@ $(document).ready(function () {
                             <br>
                             <span class="bold">Years Worked:</span> ${value['years_worked']}
                             <br>
+                            <span>----------------------------</span>
                         </span>
                     </div>`)
             });
